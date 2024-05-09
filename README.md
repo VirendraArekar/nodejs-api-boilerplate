@@ -30,7 +30,7 @@ cp .env.example .env
 
 ## Table of Contents
 
-- [RESTful API Node Server Boilerplate](#restful-api-node-server-boilerplate)
+- [Menu](#menu)
     - [Quick Start](#quick-start)
     - [Table of Contents](#table-of-contents)
     - [Features](#features)
