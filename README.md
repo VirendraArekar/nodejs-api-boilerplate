@@ -4,6 +4,24 @@ A boilerplate/starter project for quickly building RESTful APIs using [Node.js](
 
 This project is an adaptation of the project [RESTful API Node Server Boilerplate](https://github.com/hagopj13/node-express-boilerplate) using a [PostgreSQL](https://www.postgresql.org) database with [Prisma](https://www.prisma.io) ORM. Many of the files are just an adaptation to [TypeScript](https://www.typescriptlang.org) from the files of the previously mentioned project.
 
+## Prisma
+You can any of this database by add database url in env file and then change 
+
+# change provider
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+# support database
+ - CockroachDB
+ - MariaDB
+ - Microsoft SQL Server
+ - MongoDB
+ - MySQL
+ - PostgreSQL
+ - SQLite
+
 ## Quick Start
 
 Clone the repo:
